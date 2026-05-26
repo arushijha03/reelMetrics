@@ -4,12 +4,11 @@
 
 Analyze how movies perform across **1995–2024** using IMDb-style metadata + TMDb popularity signals, then train ML models to **classify movies into outcome tiers** (*Failure / Mediocre / Successful*) based on financial + reception features.
 
-## Live Demo
+## Links
 
 | | Link |
 |---|---|
 | **Project website** | [https://sites.google.com/view/reel-metrics/introduction](https://sites.google.com/view/reel-metrics/introduction) |
-| **Notebooks (GitHub)** | [https://github.com/arushijha03/reelMetrics/tree/main](https://github.com/arushijha03/reelMetrics/tree/main) |
 
 **Quick try:** open `ML_Project_4.ipynb` → run all cells → scroll to the **model training + evaluation** sections (SVM / PCA / XGBoost) and the visualizations.
 
@@ -190,12 +189,6 @@ ReelMetrics is currently presented as:
 - a reproducible notebook pipeline (GitHub)
 
 If you want, it can be upgraded into a small app (e.g., Streamlit dashboard + prediction endpoint).
-
-## Resume Bullets
-
-- Built **ReelMetrics**, a movie analytics system combining **TMDb popularity signals** with **1995–2024 movie metadata** to study financial and reception trends.
-- Created an end-to-end notebook workflow for **data merging, cleaning, EDA, and visualization** using Plotly/Seaborn.
-- Trained and evaluated ML classifiers (SVM variants + **XGBoost**) to predict `MOVIE_CATEGORY` from budget/revenue/reception features.
 
 ## 4-Month Build Plan
 
